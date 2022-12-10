@@ -49,6 +49,7 @@ dependencies {
     implementation(kotlin("stdlib-jdk8"))
 
     implementation("commons-codec:commons-codec: 1.15")
+    implementation("io.ktor:ktor-server-default-headers:$ktor_version")
 
     // Koin for Ktor
     implementation("io.insert-koin:koin-ktor:$koinVersion")

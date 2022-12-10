@@ -8,6 +8,7 @@ data class Hotel(
     val city: String,
     val hotelName: String,
     val hotelImage: List<String>,
+    val hotelThumb: String,
     //val hotelGallery: List<String>,
     //val hotelDetails: List<String>,
     val hotelDescription: String,

@@ -39,6 +39,7 @@ fun Application.module() {
     configureHTTP()
     configureKoin()
     configureSecurity(tokenConfig)
+    configureDefaultHeader()
     configureRouting(userDataSource, hashingService, tokenConfig, tokenService)
 }
 

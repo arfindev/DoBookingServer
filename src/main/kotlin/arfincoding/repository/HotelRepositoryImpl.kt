@@ -16,12 +16,13 @@ class HotelRepositoryImpl : HotelRepository {
         Hotel(
             id = 1,
             city = "Bali",
-            hotelName = "Luxury Boutique Hotel Bali",
+            hotelName = "Luxury Boutique Hotel",
             hotelImage = listOf(
                 "/images/luxyryboutique.jpg",
                 "/images/luxyryboutique1.jpg",
                 "/images/luxyryboutique2.jpg",
             ),
+            hotelThumb = "/images/luxyryboutique.jpg",
             hotelDescription = "At the resort the rooms are equipped with air conditioning, a seating area, a flat-screen TV with satellite channels,\n" +
                     " a kitchen, a dining area, a safety deposit box and a private bathroom with a hot tub and a hairdryer. Each room has a coffee machine, while certain rooms also offer a patio and others also have pool views. At Luxury Boutique Hotel Bali every room has bed linen and towels.\n" +
                     "\n" +
@@ -55,6 +56,7 @@ class HotelRepositoryImpl : HotelRepository {
                 "/images/ayanaresort1.jpg",
                 "/images/ayanaresort2.jpg",
             ),
+            hotelThumb = "/images/ayanaresort.jpg",
             hotelDescription = "Located 5 mi from Central Jimbaran, AYANA Resort Bali offers luxurious rooms overlooking \n" +
                     " bali's most beautiful and secluded white sand beaches of Jimbaran Bay. It is set on 90 hectares of \n" +
                     " cliff-top tropical garden, perched 36 m above Jimbaran Bay. Home to the famous Rock Bar, the resort provides 12 swimming pools and 19 dining options. Multilingual staff are always ready to assist guests during stay.\n" +
@@ -83,9 +85,10 @@ class HotelRepositoryImpl : HotelRepository {
             hotelName = "Natya Hotel Bali",
             hotelImage = listOf(
                 "/images/natyahotel.jpg",
-                "/images/natyahotel1.jpg",
+                "/images/natyahotel3.jpg",
                 "/images/natyahotel2.jpg",
             ),
+            hotelThumb = "/images/natyahotel.jpg",
             hotelDescription = "At the resort the rooms are equipped with air conditioning, a seating area, a flat-screen TV with satellite channels,\n" +
                     " a kitchen, a dining area, a safety deposit box and a private bathroom with a hot tub and a hairdryer. Each room has a coffee machine, while certain rooms also offer a patio and others also have pool views. At Luxury Boutique Hotel Bali every room has bed linen and towels.\n" +
                     "\n" +
@@ -119,6 +122,7 @@ class HotelRepositoryImpl : HotelRepository {
                 "/images/Seminyak1.jpg",
                 "/images/Seminyak2.jpg",
             ),
+            hotelThumb = "/images/Seminyak.jpg",
             hotelDescription = "At the resort the rooms are equipped with air conditioning, a seating area, a flat-screen TV with satellite channels,\n" +
                     " a kitchen, a dining area, a safety deposit box and a private bathroom with a hot tub and a hairdryer. Each room has a coffee machine, while certain rooms also offer a patio and others also have pool views. At Luxury Boutique Hotel Bali every room has bed linen and towels.\n" +
                     "\n" +
@@ -155,6 +159,7 @@ class HotelRepositoryImpl : HotelRepository {
                 "/images/arenabeach1.jpg",
                 "/images/arenabeach2.jpg",
             ),
+            hotelThumb = "/images/arenabeach.jpg",
             hotelDescription = "At the resort the rooms are equipped with air conditioning, a seating area, a flat-screen TV with satellite channels,\n" +
                     " a kitchen, a dining area, a safety deposit box and a private bathroom with a hot tub and a hairdryer. Each room has a coffee machine, while certain rooms also offer a patio and others also have pool views. At Luxury Boutique Hotel Bali every room has bed linen and towels.\n" +
                     "\n" +
@@ -188,6 +193,7 @@ class HotelRepositoryImpl : HotelRepository {
                 "/images/jamanafaru1.jpg",
                 "/images/jamanafaru2.jpg",
             ),
+            hotelThumb = "/images/jamanafaru.jpg",
             hotelDescription = "Located 5 mi from Central Jimbaran, AYANA Resort Bali offers luxurious rooms overlooking \n" +
                     " bali's most beautiful and secluded white sand beaches of Jimbaran Bay. It is set on 90 hectares of \n" +
                     " cliff-top tropical garden, perched 36 m above Jimbaran Bay. Home to the famous Rock Bar, the resort provides 12 swimming pools and 19 dining options. Multilingual staff are always ready to assist guests during stay.\n" +
@@ -219,6 +225,7 @@ class HotelRepositoryImpl : HotelRepository {
                 "/images/novamaldives1.jpg",
                 "/images/novamaldives2.jpg",
             ),
+            hotelThumb = "/images/novamaldives.jpg",
             hotelDescription = "At the resort the rooms are equipped with air conditioning, a seating area, a flat-screen TV with satellite channels,\n" +
                     " a kitchen, a dining area, a safety deposit box and a private bathroom with a hot tub and a hairdryer. Each room has a coffee machine, while certain rooms also offer a patio and others also have pool views. At Luxury Boutique Hotel Bali every room has bed linen and towels.\n" +
                     "\n" +
@@ -252,6 +259,7 @@ class HotelRepositoryImpl : HotelRepository {
                 "/images/pullman1.jpg",
                 "/images/pullman2.jpg",
             ),
+            hotelThumb = "/images/pullman.jpg",
             hotelDescription = "At the resort the rooms are equipped with air conditioning, a seating area, a flat-screen TV with satellite channels,\n" +
                     " a kitchen, a dining area, a safety deposit box and a private bathroom with a hot tub and a hairdryer. Each room has a coffee machine, while certain rooms also offer a patio and others also have pool views. At Luxury Boutique Hotel Bali every room has bed linen and towels.\n" +
                     "\n" +
@@ -288,6 +296,7 @@ class HotelRepositoryImpl : HotelRepository {
                 "/images/arenabeach1.jpg",
                 "/images/arenabeach2.jpg",
             ),
+            hotelThumb = "/images/arenabeach.jpg",
             hotelDescription = "At the resort the rooms are equipped with air conditioning, a seating area, a flat-screen TV with satellite channels,\n" +
                     " a kitchen, a dining area, a safety deposit box and a private bathroom with a hot tub and a hairdryer. Each room has a coffee machine, while certain rooms also offer a patio and others also have pool views. At Luxury Boutique Hotel Bali every room has bed linen and towels.\n" +
                     "\n" +
@@ -317,10 +326,11 @@ class HotelRepositoryImpl : HotelRepository {
             city = "Maldives",
             hotelName = "Jaman Faru Hotel",
             hotelImage = listOf(
-                "/images/jamanafaru.jpg",
+                "/imagesp/jamanafaru.jpg",
                 "/images/jamanafaru1.jpg",
                 "/images/jamanafaru2.jpg",
             ),
+            hotelThumb = "/imagesp/jamanafaru.jpg",
             hotelDescription = "Located 5 mi from Central Jimbaran, AYANA Resort Bali offers luxurious rooms overlooking \n" +
                     " bali's most beautiful and secluded white sand beaches of Jimbaran Bay. It is set on 90 hectares of \n" +
                     " cliff-top tropical garden, perched 36 m above Jimbaran Bay. Home to the famous Rock Bar, the resort provides 12 swimming pools and 19 dining options. Multilingual staff are always ready to assist guests during stay.\n" +
@@ -352,6 +362,7 @@ class HotelRepositoryImpl : HotelRepository {
                 "/images/novamaldives1.jpg",
                 "/images/novamaldives2.jpg",
             ),
+            hotelThumb = "/images/novamaldives.jpg",
             hotelDescription = "At the resort the rooms are equipped with air conditioning, a seating area, a flat-screen TV with satellite channels,\n" +
                     " a kitchen, a dining area, a safety deposit box and a private bathroom with a hot tub and a hairdryer. Each room has a coffee machine, while certain rooms also offer a patio and others also have pool views. At Luxury Boutique Hotel Bali every room has bed linen and towels.\n" +
                     "\n" +
@@ -385,6 +396,7 @@ class HotelRepositoryImpl : HotelRepository {
                 "/images/pullman1.jpg",
                 "/images/pullman2.jpg",
             ),
+            hotelThumb = "/images/pullman.jpg",
             hotelDescription = "At the resort the rooms are equipped with air conditioning, a seating area, a flat-screen TV with satellite channels,\n" +
                     " a kitchen, a dining area, a safety deposit box and a private bathroom with a hot tub and a hairdryer. Each room has a coffee machine, while certain rooms also offer a patio and others also have pool views. At Luxury Boutique Hotel Bali every room has bed linen and towels.\n" +
                     "\n" +
